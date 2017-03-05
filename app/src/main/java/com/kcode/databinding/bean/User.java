@@ -1,10 +1,12 @@
 package com.kcode.databinding.bean;
 
+import java.io.Serializable;
+
 /**
  * Created by caik on 2017/3/4.
  */
 
-public class User {
+public class User implements Serializable{
 
     private String name;
     private int age;
